@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Tom Nook",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/d/d8/Nook-phone-char-2-2x.png/revision/latest/scale-to-width-down/271?cb=20200504020339",
+    "occupation": "Business Man",
+    "department": "Town Hall"
+  },
+  {
+    "id": 2,
+    "name": "Isabelle",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/26/Isabelle_AF.png/revision/latest?cb=20161008142729",
+    "occupation": "Secretary",
+    "department": "Town Hall"
+  },
+  {
+    "id": 3,
+    "name": "Timmy and Tommy",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/ff/NH-character-Timmy_and_Tommy.png/revision/latest/scale-to-width-down/350?cb=20191228194012",
+    "occupation": "Store Owners",
+    "department": "Nook's Cranny"
+  },
+  {
+    "id": 4,
+    "name": "K.K. Slider",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2b/NH-character-K.K._Slider.png/revision/latest?cb=20200519012648",
+    "occupation": "Singer, Song Writter",
+    "department": "Plaza"
+  },
+  {
+    "id": 5,
+    "name": "Blathers",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/b/b3/NH-character-Blathers.png/revision/latest/scale-to-width-down/350?cb=20200229053519",
+    "occupation": "Museum Director",
+    "department": "Museum"
+  },
+  {
+    "id": 6,
+    "name": "Sabel",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a8/Sable.png/revision/latest?cb=20130605215854",
+    "occupation": "Seamstress",
+    "department": "Clothing Store"
+  },
+  {
+    "id": 7,
+    "name": "Mabel",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/f/fb/Acnl-mabel.png/revision/latest/scale-to-width-down/350?cb=20140727174432",
+    "occupation": "Seamstress",
+    "department": "Clothing Store"
+  },
+  {
+    "id": 8,
+    "name": "Label",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/5e/Acnl-labelle.png/revision/latest/scale-to-width-down/321?cb=20140719125211",
+    "occupation": "Clothing Designer",
+    "department": "Plaza"
+  },
+  {
+    "id": 9,
+    "name": "Leif",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/3/3c/Leif.png/revision/latest/scale-to-width-down/310?cb=20140721120907",
+    "occupation": "Gardner",
+    "department": "Plaza"
+  },
+  {
+    "id": 10,
+    "name": "Redd",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/6/6b/ReddNL.png/revision/latest/scale-to-width-down/265?cb=20200425083709",
+    "occupation": "Shady Trader",
+    "department": "Secret Beach"
+  },
+  {
+    "id": 11,
+    "name": "Orville",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/1/19/Airlines-char-2-2x.png/revision/latest/scale-to-width-down/350?cb=20200221011022",
+    "occupation": "Gate Agent",
+    "department": "Airport"
+  },
+  {
+    "id": 12,
+    "name": "Wilbur",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/2/2a/Airlines-char-1-2x.png/revision/latest/scale-to-width-down/306?cb=20200221010843",
+    "occupation": "Pilot",
+    "department": "Airport"
+  },
+  {
+    "id": 13,
+    "name": "C.J.",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/5/58/ERvaN4CWsAEYh2p.png/revision/latest?cb=20200317162527",
+    "occupation": "Fish Collector",
+    "department": "Town of SoraSora"
+  },
+  {
+    "id": 14,
+    "name": "Flick",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/a/a2/NH-Flick.png/revision/latest?cb=20200403152806",
+    "occupation": "Bug Collector",
+    "department": "Town of SoraSora"
+  },
+  {
+    "id": 15,
+    "name": "Daisy Mae",
+    "image": "https://vignette.wikia.nocookie.net/animalcrossing/images/8/85/Daisy_Mae.png/revision/latest?cb=20200220213944",
+    "occupation": "Stalk Trader",
+    "department": "Town of SoraSora"
+  }
+]
