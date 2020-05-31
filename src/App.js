@@ -1,35 +1,68 @@
-import React, { Component } from "react";
-import FriendCard from "./components/EmployeeCard";
-import Wrapper from "./components/Wrapper";
+import React, { useState, useEffect, useMemo } from "react";
+
+import EmployeeCard from "./components/EmployeeCard";
 import Title from "./components/Title";
+import Table from "./components/Table/Table";
 import Employee from "./employee.json";
-import SearchBar from "./components/SearchBar"
 
-class App extends Component {
-  // Setting this.state.friends to the friends json array
-  state = {
-    Employee
-  };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
-  render() {
+function App(){
+
+  const [data, setData] = useState([]);
+
+// Using useEffect to call the json once mounted and set the data
+  useEffect(() => {
+    const data = Employee;
+      setData(data);
+
+  }, []);
+
+  const columns = useMemo(
+    () => [
+      {
+        Header: "Employee",
+        columns: [
+          {
+            Header: "",
+            accessor: "image",
+            Cell: ({ cell: { value } }) => <EmployeeCard employee={value}/>
+          },
+          {
+            Header: "Name",
+            accessor: "name"
+          }
+        ]
+      },
+      {
+        Header: "Details",
+        columns: [
+          {
+            Header: "Occupation",
+            accessor: "occupation",
+          },
+          {
+            Header: "Department",
+            accessor: "department",
+            
+          },
+        ]
+      }
+    ],
+    
+    []
+  );
+
     return (
-      <Wrapper>
-        <Title>Employee Directory</Title>
-        <SearchBar>Search Employee by id, name, occupation or department.</SearchBar>
-        {this.state.Employee.map(Employee => (
-          <FriendCard
-            id={Employee.id}
-            key={Employee.id}
-            name={Employee.name}
-            image={Employee.image}
-            occupation={Employee.occupation}
-            department={Employee.department}
-          />
-        ))}
-      </Wrapper>
+      <div className="App">
+    
+      <Title>Employee Directory</Title>
+        <Table 
+        columns={columns} 
+        data={data} 
+        setTable={setData}/>
+        </div>
     );
   }
-}
+
 
 export default App;
