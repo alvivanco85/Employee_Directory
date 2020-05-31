@@ -1,10 +1,11 @@
 #employeeDir {
   width: 100%;
-  border: 15px solid rgb(34, 27, 59);
-  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  background-color: rgb(24, 33, 58);
+  border: 15px solid rgb(187, 184, 201);
+  box-shadow: 0 3px 6px rgb(31, 29, 29);
   padding: 50px;
   margin: 20px;
   font-size: x-large;
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
 }

@@ -6,7 +6,7 @@ function EmployeeCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.friend} />
+        <img alt={props.name} src={props.employee} />
       </div>
     </div>
   );

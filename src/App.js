@@ -10,7 +10,6 @@ function App(){
 
   const [data, setData] = useState([]);
 
-// Using useEffect to call the json once mounted and set the data
   useEffect(() => {
     const data = Employee;
       setData(data);
@@ -23,7 +22,7 @@ function App(){
         Header: "Employee",
         columns: [
           {
-            Header: "",
+            Header: "Profile Picture",
             accessor: "image",
             Cell: ({ cell: { value } }) => <EmployeeCard employee={value}/>
           },

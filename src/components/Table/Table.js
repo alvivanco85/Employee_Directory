@@ -44,9 +44,9 @@ const [filterDepartmentInput, setFilterDepartmentInput] = useState("");
  return (
   <>
  <div className="search">
-<input value={filterNameInput} onChange= {handleFilterChangeName} placeholder={"Input Name"}/> 
-<input value={filterOccupationInput} onChange={handleFilterChangeOccupation } placeholder={"Input Role"}/> 
-<input value={filterDepartmentInput} onChange={handleFilterChangeDepartment} placeholder={"Input Department"}/>
+<input value={filterNameInput} onChange= {handleFilterChangeName} placeholder={"Input Name Here"}/> 
+<input value={filterOccupationInput} onChange={handleFilterChangeOccupation } placeholder={"Input Occupation Here"}/> 
+<input value={filterDepartmentInput} onChange={handleFilterChangeDepartment} placeholder={"Input Department Here"}/>
 </div> 
 <table {...getTableProps()}>
   <thead>
