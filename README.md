@@ -30,4 +30,4 @@ Open up the root directory in your terminal. "Npm i" to install packages. Use "n
 * Github Repo - https://github.com/alvivanco85/Employee_Directory
 
 ## Pictures
-![Employee Directory Demo GIF]()
+![Employee Directory Demo GIF](https://github.com/alvivanco85/Employee_Directory/blob/master/Employee_Dir.gif)
